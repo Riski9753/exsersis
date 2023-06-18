@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="form.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Movie Episode</h2>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-item">
+                    <picture>
+                        <source srcset="The-Last-Naruto-the-Movie.webp" type="image/webp">
+                        <img src="The-Last-Naruto-the-Movie.jpg" alt="Gambar 1">
+                    </picture>
+                    <h2>The Last Naruto the Movie</h2>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source srcset="Naruto-Shippuuden-Movie-5-Blood-Prison.webp" type="image/webp">
+                        <img src="Naruto-Shippuuden-Movie-5-Blood-Prison.jpg" alt="Gambar 2">
+                    </picture>
+                    <h2>Naruto Shippuuden Movie 5 Blood Prison</h2>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source srcset="Naruto-Shippuuden-Movie-6-Road-to-Ninja.webp" type="image/webp">
+                        <img src="Naruto-Shippuuden-Movie-6-Road-to-Ninja.jpg" alt="Gambar 3">
+                    </picture>
+                    <h2>Naruto Shippuuden Movie 6 Road to Ninja</h2>
+                </div>
+            </div>
+        </div>
+
+        <label for="date-of-birth">Tanggal Penayangan:</label><br>
+            <select id="birth-year">
+                <option value="2000">2000</option>
+                <option value="2000">2001</option>
+                <option value="2001">2002</option>
+                <option value="2002">2003</option>
+                <option value="2002">2004</option>
+                <option value="2002">2005</option>
+               
+            </select>
+
+            <select id="birth-month">
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="04">April</option>
+                <option value="05">Mai</option>
+                <option value="06">Juni</option>
+                <option value="07">Juli</option>
+                <option value="08">Agustus</option>
+                <option value="09">Sptember</option>
+                <option value="10">Oktober</option>
+                <option value="11">November</option>
+                <option value="12">Desember</option>
+                
+            </select>
+
+            <select id="birth-day">
+                <option value="01">1</option>
+                <option value="02">2</option>
+                <option value="03">3</option>
+                <option value="03">4</option>
+                <option value="03">5</option>
+                <option value="03">6</option>
+                <option value="03">7</option>
+                <option value="03">8</option>
+                <option value="03">9</option>
+                <option value="03">10</option>
+                
+            </select><br><br>
+
+    <form>
+        <label for="episode">Pilih Episode</label><br>
+        <select id="episode">
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+        </select><br><br>
+        <input type="radio" name="peminatan" id="episode1" value="episode1">
+        <label for="episode1">The Last Naruto the Movie</label><br>
+
+        <input type="radio" name="peminatan" id="episode2" value="episode2">
+        <label for="episode2">Naruto Shippuuden Movie 5 Blood Prison</label><br>
+
+        <input type="radio" name="peminatan" id="episode3" value="episode3">
+        <label for="episode3">Naruto Shippuuden Movie 6 Road to Ninja</label><br>
+
+        <label for="alamat">Masukan</label>
+            <textarea placeholder="Tuliskan alamatmu di sini" name="alamat" cols="30" rows="5"></textarea><br><br>
+
+        <button type="submit" onclick="kirimData()">Kirim</button>
+
+        <div class="next-button">
+            <a href="indx.html">Home</a>
+        </div>
+    </form>
+    
+
+    
+
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center py-3">
+                        <p class="wer">&copy; 2023 Pengembangan Desain Web</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="secript.js"></script>
+    
+</body>
+</html>
